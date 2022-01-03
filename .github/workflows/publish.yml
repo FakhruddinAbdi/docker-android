@@ -24,7 +24,7 @@ jobs:
 
       - name: Prepare tags
         env:
-          DOCKER_IMAGE: abdifakhruddin/react-native-android
+          DOCKER_IMAGE: reactnativecommunity/react-native-android
           STABLE_MAJOR: 1
         id: tags
         run: |
