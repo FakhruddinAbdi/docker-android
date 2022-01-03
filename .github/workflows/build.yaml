@@ -2,11 +2,8 @@ name: Build Docker image
 
 on:
   push:
-    branches: 
+    branches:
       - master
-  pull_request:
-    paths: 
-      - Dockerfile
 
 jobs:
     build:
