@@ -8,8 +8,8 @@ aliases:
   - &build-docker
     name: Build Docker Image
     command: |
-      docker build -t react-native-community/react-native .
-      docker run --rm --name rn-env react-native-community/react-native bin/sh -c "npx envinfo"
+      docker build -t abdifakhruddin/react-native .
+      docker run --rm --name rn-env abdifakhruddin/react-native bin/sh -c "npx envinfo"
 
 jobs:
 
