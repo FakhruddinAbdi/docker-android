@@ -2,10 +2,8 @@ name: Build Docker image
 
 on:
   push:
-    paths: 
-      - Dockerfile
-    tags-ignore:
-      - '*.*'
+    branches: 
+      - master
   pull_request:
     paths: 
       - Dockerfile
